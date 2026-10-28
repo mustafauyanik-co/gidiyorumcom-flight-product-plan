@@ -46,3 +46,8 @@ Yeniden doğrulamada fiyat değişikliği oranı, kabul/ret oranı, doğrulama z
 ## Tamamlanma koşulu
 
 Fiyat değişimi, ret, süresi dolan teklif, zaman aşımı ve yinelenen istek senaryoları test edilmiş olmalı. [Yol haritası](../epics-and-roadmap.md) ve [ekip kalite kapıları](../team-and-quality.md) uygulanır.
+
+
+## Story → Görevler
+
+Bu Epic altındaki Story görevleri [Epic → Story → Görev kataloğunda](../tasks/README.md#e3-fiyat-doğruluğu-ve-teklif-geçerliliği). Görevler sprint planlamasında API sözleşmesi, bağımlılıklar ve ekip kapasitesiyle doğrulanmalıdır.
