@@ -46,3 +46,8 @@ Sonuçsuz arama oranı, arama p95 süresi, sonuçtan teklif seçimine geçiş, f
 ## Tamamlanma koşulu
 
 Zorunlu filtre ve hata senaryoları test edilmiş; mobil kullanım, ölçüm ve kalite kontrolleri geçmiş olmalı. [Yol haritası](../epics-and-roadmap.md) ve [ekip kalite kapıları](../team-and-quality.md) uygulanır.
+
+
+## Story → Görevler
+
+Bu Epic altındaki Story görevleri [Epic → Story → Görev kataloğunda](../tasks/README.md#e2-arama-sonuç-listesi-ve-filtreler). Görevler sprint planlamasında API sözleşmesi, bağımlılıklar ve ekip kapasitesiyle doğrulanmalıdır.
