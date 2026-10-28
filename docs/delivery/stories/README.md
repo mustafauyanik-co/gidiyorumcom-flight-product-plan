@@ -9,6 +9,10 @@ Bu klasör, ürün iş listesindeki iki ayrıntılı kullanıcı hikâyesi örne
 | [STORY-FLT-001](STORY-FLT-001-flight-results-filters.md) | Uçuş sonuçlarını filtreleme | E2 — Arama ve sonuçlar | Zorunlu | 5 puan |
 | [STORY-FLT-002](STORY-FLT-002-price-change-confirmation.md) | Ödeme öncesi fiyat değişikliğini onaylama | E3 — Fiyat doğruluğu | Zorunlu | 8 puan |
 
+## Görev katmanı
+
+Story'lerin uygulanabilir görevleri [Epic → Story → Görev kataloğunda](../tasks/README.md) tutulur. Story kimlikleri ile görev kimlikleri arasındaki bağlantı korunur.
+
 ## Yazım standardı
 
 Her hikâyede şu bilgiler bulunmalıdır:
