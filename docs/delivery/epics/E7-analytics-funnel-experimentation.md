@@ -47,3 +47,8 @@ Kritik olayların testten geçme oranı, analitik ile sunucu bilet sayısı fark
 ## Tamamlanma koşulu
 
 Kritik olaylar ve panolar test edilmiş; veri gizliliği kontrolü ve sunucu kayıtlarıyla mutabakat tamamlanmış olmalı. [Ölçüm planı](../../analytics/measurement-plan.md) ve [olay sözlüğü](../../analytics/event-dictionary.csv) ana kaynaklardır.
+
+
+## Story → Görevler
+
+Bu Epic altındaki Story görevleri [Epic → Story → Görev kataloğunda](../tasks/README.md). Görevler sprint planlamasında API sözleşmesi, bağımlılıklar ve ekip kapasitesiyle doğrulanmalıdır.
