@@ -45,3 +45,8 @@ Arama oturumu başına kesilmiş bilet, aramadan satışa dönüşüm, mobil dö
 ## Tamamlanma koşulu
 
 Deneme ölçüm ve kalite kontrollerinden geçmiş, sonuçlar doğru yorumlanmış ve ürün kararı kayıt altına alınmış olmalı.
+
+
+## Story → Görevler
+
+Bu Epic altındaki Story görevleri [Epic → Story → Görev kataloğunda](../tasks/README.md). Görevler sprint planlamasında API sözleşmesi, bağımlılıklar ve ekip kapasitesiyle doğrulanmalıdır.
