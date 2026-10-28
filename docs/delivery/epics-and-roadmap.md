@@ -10,15 +10,15 @@
 
 | ID | İş paketi | Öncelikli çıktı | Sorumlu lider |
 |---|---|---|---|
-| E1 | TourVisio bağlantısı | Ortak tedarikçi arayüzü ve doğrulanmış API sözleşmesi | Backend 1 |
-| E2 | Arama ve sonuçlar | Arama, filtre, sıralama ve hata durumları | Arayüz geliştiricisi |
-| E3 | Fiyat doğruluğu | Ödeme öncesi fiyat/uygunluk kontrolü ve kullanıcı onayı | Backend 1 + arayüz |
-| E4 | Yolcu, ödeme ve biletleme | İşlem durumları, yinelenen işlem koruması ve mutabakat | Backend 1 + Backend 2 |
-| E5 | SEO sürekliliği | Adreslerin korunması ve teknik SEO denetimi | Pazarlama/SEO + arayüz |
-| E6 | Trafik yönlendirme ve izleme | Aşamalı trafik, alarm ve geri dönüş | Backend 2 + teknik lider |
-| E7 | Analitik ve ölçüm | Olay sözlüğü, başarı ölçütleri ve panolar | Ürün + backend/arayüz + QA |
-| E8 | Operasyon ve lansman hazırlığı | Destek yönergeleri, eğitim ve canlıya geçiş kontrolü | Ürün + operasyon |
-| E9 | Dönüşüm iyileştirmeleri | Ölçülebilir iyileştirme denemeleri | Ürün + arayüz + analitik |
+| [E1 – TourVisio bağlantısı](./epics/E1-tourvisio-integration.md) | TourVisio bağlantısı | Ortak tedarikçi arayüzü ve doğrulanmış API sözleşmesi | Backend 1 |
+| [E2 – Arama ve sonuçlar](./epics/E2-flight-search-results-filters.md) | Arama ve sonuçlar | Arama, filtre, sıralama ve hata durumları | Arayüz geliştiricisi |
+| [E3 – Fiyat doğruluğu](./epics/E3-price-consistency-offer-validity.md) | Fiyat doğruluğu | Ödeme öncesi fiyat/uygunluk kontrolü ve kullanıcı onayı | Backend 1 + arayüz |
+| [E4 – Yolcu, ödeme ve biletleme](./epics/E4-passenger-payment-ticketing.md) | Yolcu, ödeme ve biletleme | İşlem durumları, yinelenen işlem koruması ve mutabakat | Backend 1 + Backend 2 |
+| [E5 – SEO sürekliliği](./epics/E5-seo-continuity.md) | SEO sürekliliği | Adreslerin korunması ve teknik SEO denetimi | Pazarlama/SEO + arayüz |
+| [E6 – Trafik yönlendirme ve izleme](./epics/E6-feature-flags-rollout-observability.md) | Trafik yönlendirme ve izleme | Aşamalı trafik, alarm ve geri dönüş | Backend 2 + teknik lider |
+| [E7 – Analitik ve ölçüm](./epics/E7-analytics-funnel-experimentation.md) | Analitik ve ölçüm | Olay sözlüğü, başarı ölçütleri ve panolar | Ürün + backend/arayüz + QA |
+| [E8 – Operasyon ve lansman hazırlığı](./epics/E8-operations-support-launch-readiness.md) | Operasyon ve lansman hazırlığı | Destek yönergeleri, eğitim ve canlıya geçiş kontrolü | Ürün + operasyon |
+| [E9 – Dönüşüm iyileştirmeleri](./epics/E9-conversion-optimization.md) | Dönüşüm iyileştirmeleri | Ölçülebilir iyileştirme denemeleri | Ürün + arayüz + analitik |
 
 Her iş paketinin kapsamı, kabul ölçütleri ve bağımlılıkları [ayrı iş paketi belgelerinde](./epics/README.md) bulunur. Lider rol, tüm işi tek başına yapacağı anlamına gelmez; teslimat için ilgili ekip üyeleriyle birlikte çalışır.
 
