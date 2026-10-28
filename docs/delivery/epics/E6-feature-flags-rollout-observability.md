@@ -46,3 +46,8 @@ Tedarikçi bazında hata/p95/biletleme başarısı, trafik oranı, geri dönüş
 ## Tamamlanma koşulu
 
 Trafik anahtarı, alarmlar ve geri dönüş gerçekçi test senaryosunda doğrulanmış olmalı. [Geçiş ve risk yönetimi](../../technical/migration-and-risks.md) ile birlikte değerlendirilir.
+
+
+## Story → Görevler
+
+Bu Epic altındaki Story görevleri [Epic → Story → Görev kataloğunda](../tasks/README.md). Görevler sprint planlamasında API sözleşmesi, bağımlılıklar ve ekip kapasitesiyle doğrulanmalıdır.
