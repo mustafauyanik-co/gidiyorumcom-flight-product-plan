@@ -45,3 +45,8 @@ Organik oturum ve tıklama, önemli adreslerin erişilebilirliği, 404 oranı, i
 ## Tamamlanma koşulu
 
 Adres envanteri ve yayın öncesi/sonrası kontroller tamamlanmış; kritik sorunlar kapatılmış veya yazılı istisna kararı alınmış olmalı. [Yol haritası](../epics-and-roadmap.md) ile birlikte değerlendirilir.
+
+
+## Story → Görevler
+
+Bu Epic altındaki Story görevleri [Epic → Story → Görev kataloğunda](../tasks/README.md). Görevler sprint planlamasında API sözleşmesi, bağımlılıklar ve ekip kapasitesiyle doğrulanmalıdır.
