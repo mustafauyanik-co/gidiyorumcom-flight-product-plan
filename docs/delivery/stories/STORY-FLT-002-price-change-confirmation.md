@@ -44,6 +44,51 @@ E1 fiyat API'si, E4 ödeme/işlem durumları, ödeme sağlayıcısı ve olay sö
 
 Fiyat değişikliği oranı, değişen fiyatı kabul/ret oranı ve ödeme/biletleme başarısı izlenir. **Onaysız tutarla ödeme ve çift ödeme hedefi sıfırdır.**
 
+## Görevler
+
+### TASK-STORY-FLT-002-01 — Fiyat doğrulama sözleşmesini teyit etme
+- **Sorumlu:** Backend 1, SAN TSG
+- **Bağımlılık:** E1 API sözleşmesi ve test ortamı
+- **Görev:** Teklif kimliği, fiyat/uygunluk doğrulaması, geçerlilik, timeout ve sağlayıcı hata davranışlarını teyit etmek.
+- **Tamamlanma ölçütü:** Doğrulanan davranışlar ve açık kalan sorular belgelenmiş; teyit edilmemiş davranış varsayılmamış.
+
+### TASK-STORY-FLT-002-02 — Fiyatı sunucu tarafında doğrulama
+- **Sorumlu:** Backend 1
+- **Bağımlılık:** TASK-STORY-FLT-002-01
+- **Görev:** Ödeme öncesinde teklifin fiyatını ve satın alınabilirliğini sunucuda doğrulamak; teklif referansını ve doğrulanan tutarı işlem bağlamına bağlamak.
+- **Tamamlanma ölçütü:** İstemciden gelen tutar tek doğruluk kaynağı değil; doğrulama sonucu izlenebilir.
+
+### TASK-STORY-FLT-002-03 — Fiyat farkı ve karar ekranlarını uygulama
+- **Sorumlu:** Arayüz geliştiricisi, tasarım
+- **Bağımlılık:** TASK-STORY-FLT-002-01; ürün onaylı durum tasarımları
+- **Görev:** Fiyat aynı, arttı, azaldı, teklif geçersiz ve doğrulama hatası durumlarını; eski/yeni toplamı, para birimini ve farkı anlaşılır biçimde göstermek.
+- **Tamamlanma ölçütü:** Her durum için kullanıcıya uygun eylem sunuluyor; onay gerektiren durumda ödeme henüz başlatılmıyor.
+
+### TASK-STORY-FLT-002-04 — Açık onayı ve kabul edilen tutarı kaydetme
+- **Sorumlu:** Backend 1
+- **Bağımlılık:** TASK-STORY-FLT-002-02 ve TASK-STORY-FLT-002-03
+- **Görev:** Kullanıcı yeni fiyatı açıkça kabul etmeden ödeme çağrısını engellemek; teklif kimliği, onay zamanı ve kabul edilen tutarı kaydetmek.
+- **Tamamlanma ölçütü:** Ödeme tutarı onaylanan tutarla eşleşiyor; ret veya geri dönüşte ödeme başlamıyor.
+
+### TASK-STORY-FLT-002-05 — Yinelenen işlem isteğini engelleme
+- **Sorumlu:** Backend 1, Backend 2
+- **Bağımlılık:** İşlem ve ödeme sağlayıcısı sözleşmeleri
+- **Görev:** Çift tıklama ve yinelenen isteklerde idempotency/tekilleştirme uygulamak; çift ödeme veya çift rezervasyon riskini önlemek.
+- **Tamamlanma ölçütü:** Aynı işlem tekrarlandığında ikinci bir ödeme/rezervasyon oluşmuyor.
+
+### TASK-STORY-FLT-002-06 — Fiyat kararı olaylarını ölçme
+- **Sorumlu:** Arayüz geliştiricisi, analitik sorumlusu
+- **Bağımlılık:** Olay sözlüğü ve izin/veri minimizasyonu kuralları
+- **Görev:** `price_change_detected`, `price_change_accepted` ve `price_change_rejected` olaylarını doğru adımda ve tekil göndermek.
+- **Tamamlanma ölçütü:** Olaylar sözlükle uyumlu; yolcu, iletişim, kimlik veya kart bilgisi içermiyor.
+
+### TASK-STORY-FLT-002-07 — Fiyat ve ödeme güvenliği testlerini tamamlama
+- **Sorumlu:** QA
+- **Bağımlılık:** TASK-STORY-FLT-002-02 ila TASK-STORY-FLT-002-06
+- **Görev:** Fiyat değişmedi/arttı/azaldı, ret, süresi dolan teklif, timeout, yinelenen istek, para birimi ve ödeme tutarı eşleşmesini test etmek.
+- **Tamamlanma ölçütü:** Doğrulama hatasında veya açık onay yokken ödeme çağrısı oluşmadığı test kanıtıyla doğrulanmış; çift ödeme testi geçmiş.
+
+
 - [İş paketi ve yol haritası](../epics-and-roadmap.md)
 - [Teknik geçiş ve riskler](../../technical/migration-and-risks.md)
 - [Analitik ölçüm planı](../../analytics/measurement-plan.md)
