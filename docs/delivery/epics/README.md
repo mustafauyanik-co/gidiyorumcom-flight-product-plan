@@ -16,6 +16,10 @@ Bu klasör, gidiyorum.com uçak bileti planındaki dokuz iş paketini (Epic) tan
 | E8 | Operasyon ve canlıya geçiş hazırlığı | Zorunlu | [E8](./E8-operations-support-launch-readiness.md) |
 | E9 | Dönüşüm iyileştirmeleri | İlk sürüm sonrası | [E9](./E9-conversion-optimization.md) |
 
+## Görev katmanı
+
+Her Epic'in Story bazlı uygulanabilir görevleri [görev kataloğunda](../tasks/README.md) yer alır. Görevler sorumlu rol, bağımlılık, çıktı ve doğrulama koşuluyla tanımlanmıştır.
+
 ## Kullanım kuralları
 
 - Story listeleri başlangıç iş listesidir; ekip değerlendirmesi ve bağımlılık kontrolü yapılmadan tamamlanmış iş sayılmaz.
