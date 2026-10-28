@@ -20,7 +20,7 @@
 | [E8 – Operasyon ve lansman hazırlığı](./epics/E8-operations-support-launch-readiness.md) | Operasyon ve lansman hazırlığı | Destek yönergeleri, eğitim ve canlıya geçiş kontrolü | Ürün + operasyon |
 | [E9 – Dönüşüm iyileştirmeleri](./epics/E9-conversion-optimization.md) | Dönüşüm iyileştirmeleri | Ölçülebilir iyileştirme denemeleri | Ürün + arayüz + analitik |
 
-Her iş paketinin kapsamı, kabul ölçütleri ve bağımlılıkları [ayrı iş paketi belgelerinde](./epics/README.md) bulunur. Lider rol, tüm işi tek başına yapacağı anlamına gelmez; teslimat için ilgili ekip üyeleriyle birlikte çalışır.
+Her iş paketinin kapsamı, kabul ölçütleri ve bağımlılıkları [ayrı iş paketi belgelerinde](./epics/README.md); Story altındaki uygulanabilir görevler ise [görev kataloğunda](./tasks/README.md) bulunur. Lider rol, tüm işi tek başına yapacağı anlamına gelmez; teslimat için ilgili ekip üyeleriyle birlikte çalışır.
 
 ## Bağımlılık sırası
 
