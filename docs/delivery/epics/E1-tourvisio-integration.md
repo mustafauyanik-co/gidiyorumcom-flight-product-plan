@@ -46,3 +46,8 @@ Tedarikçi hata ve zaman aşımı oranı, arama p95 süresi, ortak modelde zorun
 ## Tamamlanma koşulu
 
 Zorunlu işler test edilmiş; kritik hata senaryoları, ölçüm, gizlilik kontrolleri ve ilgili belgeler tamamlanmış olmalı. [Yol haritası](../epics-and-roadmap.md) ve [ekip kalite kapıları](../team-and-quality.md) ile birlikte değerlendirilir.
+
+
+## Story → Görevler
+
+Bu Epic altındaki Story görevleri [Epic → Story → Görev kataloğunda](../tasks/README.md#e1-tourvisio-bağlantısı-ve-tedarikçi-soyutlama). Görevler sprint planlamasında API sözleşmesi, bağımlılıklar ve ekip kapasitesiyle doğrulanmalıdır.
