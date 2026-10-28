@@ -46,3 +46,8 @@ Biletleme kaynaklı destek başvuruları, ilk yanıt/çözüm süresi, tekrar ba
 ## Tamamlanma koşulu
 
 Destek ve operasyon yönergeleri onaylanmış, eğitim tamamlanmış, mutabakat yöntemi test edilmiş ve canlıya geçiş kontrol listesi kapatılmış olmalı.
+
+
+## Story → Görevler
+
+Bu Epic altındaki Story görevleri [Epic → Story → Görev kataloğunda](../tasks/README.md). Görevler sprint planlamasında API sözleşmesi, bağımlılıklar ve ekip kapasitesiyle doğrulanmalıdır.
