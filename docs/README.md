@@ -25,3 +25,10 @@ Bu klasör ürün planını konu alanlarına ayırır. Her konuda tek bir ana ka
 - Tarihleri varsayım veya onaylanmış plan olarak ayırın.
 - Karar değişikliklerinde gerekçe, etki ve geri dönüş yolu kaydedilsin.
 - CSV dosyasında UTF-8, sabit sütunlar ve başlık satırı korunsun.
+
+
+## Epic → Story → Görev
+
+- [Epic kataloğu](delivery/epics/README.md)
+- [Story kataloğu](delivery/stories/README.md)
+- [Görev kataloğu ve görev kırılımları](delivery/tasks/README.md)
