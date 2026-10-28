@@ -48,3 +48,8 @@ E3 fiyat onayı, ödeme sağlayıcısı belgeleri, TourVisio rezervasyon/biletle
 ## Tamamlanma koşulu
 
 Başarılı, başarısız, bekleyen, yinelenen bildirim ve kurtarma senaryoları test edilmiş; finans/operasyon yönergeleri ve ölçüm doğrulanmış olmalı. [Yol haritası](../epics-and-roadmap.md) ve [ekip kalite kapıları](../team-and-quality.md) uygulanır.
+
+
+## Story → Görevler
+
+Bu Epic altındaki Story görevleri [Epic → Story → Görev kataloğunda](../tasks/README.md#e4-yolcu-ödeme-ve-biletleme). Görevler sprint planlamasında API sözleşmesi, bağımlılıklar ve ekip kapasitesiyle doğrulanmalıdır.
